@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>과제 2</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <!--class는 이름 설정(디자인으로 쓸 때 쓰는 설정정.)-->
+      <div class="container">
+        <div class="logo">92212996 이제혁</div>
+        <!--div.logo라고 쳐도 자동 완성 된다.-->
+        <ul class="nav">
+          <li><a href="Home.html">Home</a></li>
+          <!--링크 넣는 코드-->
+          <li><a href="login.html">Login</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="image.html">Image</a></li>
+        </ul>
+      </div>
+    </nav>
+    <form>
+      <fieldset>
+        <legend>[수업 준비물 체크리스트]</legend>
+        <p>[수업 요일을 선택해주세요]</p>
+        <input type="radio" id="mon" name="day" value="1" />
+        <label for="mon">월요일</label>
+        <input type="radio" id="tu" name="day" value="2" />
+        <label for="tu">화요일</label>
+        <input type="radio" id="wen" name="day" value="3" />
+        <label for="wen">수요일</label>
+        <input type="radio" id="th" name="day" value="4" />
+        <label for="th">목요일</label>
+        <input type="radio" id="fri" name="day" value="5" />
+        <label for="fri">금요일</label>
+        <input type="radio" id="sat" name="day" value="6" />
+        <label for="sat">토요일</label>
+        <input type="radio" id="sun" name="day" value="7" />
+        <label for="sun">일요일</label>
+        <br />
+        <br />
+        <hr />
+        <input type="checkbox" id="h1" value="1" />
+        <label for="h1">가방</label>
+        <br />
+        <input type="checkbox" id="h2" value="2" />
+        <label for="h2">노트북</label>
+        <br />
+        <input type="checkbox" id="h3" value="3" />
+        <label for="h3">전공서적</label>
+        <br />
+        <input type="checkbox" id="h4" value="4" />
+        <label for="h4">펜, 노트</label>
+        <br />
+        <input type="checkbox" id="h5" value="5" />
+        <label for="h5">안경</label>
+        <br />
+        <input type="checkbox" id="h6" value="6" />
+        <label for="h6">휴대폰</label>
+        <br />
+        <input type="checkbox" id="h7" value="7" />
+        <label for="h7">충전기</label>
+        <br />
+        <input type="checkbox" id="h8" value="8" />
+        <label for="h8">강의자료</label>
+        <br />
+      </fieldset>
+    </form>
+  </body>
+</html>
